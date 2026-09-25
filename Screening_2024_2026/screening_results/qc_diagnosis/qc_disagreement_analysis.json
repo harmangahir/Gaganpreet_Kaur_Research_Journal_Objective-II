@@ -1,0 +1,112 @@
+{
+  "qc_records_completed": 164,
+  "qc_disagreements": 58,
+  "AI_Include_to_Human_Exclude": 41,
+  "AI_Exclude_to_Human_Include": 17,
+  "other_disagreement_types": 0,
+  "false_include_human_exclusion_codes": {
+    "E09": 4,
+    "E12": 32,
+    "E04": 1,
+    "E03": 2,
+    "E08": 2
+  },
+  "false_exclude_ai_exclusion_codes": {
+    "E12": 5,
+    "E13": 4,
+    "E06": 3,
+    "E04": 1,
+    "E07": 2,
+    "E08": 1,
+    "E05": 1
+  },
+  "disagreement_primary_themes": {
+    "T5 Transformer/attention": 12,
+    "T9 Other relevant AI stock forecasting": 20,
+    "T1 Historical/technical forecasting": 9,
+    "T3 Financial news/sentiment": 8,
+    "T4 Multimodal/data fusion": 2,
+    "T7 Explainability/XAI": 2,
+    "T6 Optimization/metaheuristics/HPO": 2,
+    "T2 Fundamental-data forecasting": 1,
+    "T8 Temporal validation/leakage/robustness": 2
+  },
+  "disagreement_evidence_levels": {
+    "Abstract available": 58
+  },
+  "top_stock_evidence_terms_in_disagreements": {
+    "stock market": 36,
+    "stock price": 21,
+    "s&p 500": 7,
+    "nasdaq": 5,
+    "stock prediction": 4,
+    "stock forecasting": 3,
+    "stock index": 3,
+    "nikkei": 2,
+    "csi 300": 2,
+    "dow jones": 2,
+    "ftse": 2,
+    "stock movement": 1,
+    "stock return": 1,
+    "market index": 1,
+    "equity market": 1,
+    "stock trend": 1,
+    "djia": 1,
+    "hang seng": 1
+  },
+  "top_prediction_evidence_terms_in_disagreements": {
+    "forecasting": 34,
+    "prediction": 32,
+    "forecast": 15,
+    "predict": 11,
+    "directional": 2,
+    "movement prediction": 2,
+    "price movement": 2,
+    "next-day": 1,
+    "return prediction": 1,
+    "return forecasting": 1,
+    "trend prediction": 1
+  },
+  "top_ai_evidence_terms_in_disagreements": {
+    "machine learning": 23,
+    "lstm": 20,
+    "neural network": 20,
+    "attention": 14,
+    "deep learning": 14,
+    "artificial intelligence": 8,
+    "hybrid model": 7,
+    "cnn": 7,
+    "transformer": 6,
+    "convolutional": 4,
+    "graph neural": 4,
+    "rnn": 3,
+    "gradient boosting": 3,
+    "bert": 3,
+    "random forest": 2,
+    "xgboost": 2,
+    "support vector": 2,
+    "large language model": 1,
+    "llm": 1,
+    "gru": 1
+  },
+  "top_non_target_terms_in_disagreements": {
+    "volatility forecasting": 4,
+    "gold price": 2,
+    "volatility prediction": 2,
+    "crude oil": 1,
+    "oil price": 1,
+    "traffic flow": 1,
+    "covid-19 cases": 1
+  },
+  "confusion_matrix": {
+    "Include": {
+      "Exclude": 41,
+      "Include": 43
+    },
+    "Exclude": {
+      "Include": 17,
+      "Exclude": 63
+    }
+  },
+  "interpretation": "Use this diagnosis to revise deterministic rules. Do not change individual unreviewed records manually. If a systematic pattern is identified, modify the rule and rerun the entire 2,808-record corpus as Screening Version 2."
+}

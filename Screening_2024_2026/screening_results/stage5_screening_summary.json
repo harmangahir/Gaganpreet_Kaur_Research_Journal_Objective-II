@@ -1,0 +1,79 @@
+{
+  "screening_version": "1.0",
+  "corpus_size": 2808,
+  "decisions": {
+    "Include": 1668,
+    "Exclude": 799,
+    "Maybe": 270,
+    "Background": 71
+  },
+  "full_text_queue_include_plus_maybe": 1938,
+  "exclusion_codes": {
+    "E13": 195,
+    "E12": 188,
+    "E06": 185,
+    "E07": 32,
+    "E04": 59,
+    "E05": 59,
+    "E08": 16,
+    "E03": 31,
+    "E01": 18,
+    "E02": 15,
+    "E10": 1
+  },
+  "decision_by_year": {
+    "2026": {
+      "Include": 455,
+      "Exclude": 227,
+      "Maybe": 90,
+      "Background": 22
+    },
+    "2025": {
+      "Include": 661,
+      "Maybe": 84,
+      "Exclude": 293,
+      "Background": 25
+    },
+    "2024": {
+      "Exclude": 279,
+      "Include": 552,
+      "Maybe": 96,
+      "Background": 24
+    }
+  },
+  "primary_themes_include_plus_maybe": {
+    "T6 Optimization/metaheuristics/HPO": 144,
+    "T7 Explainability/XAI": 116,
+    "T3 Financial news/sentiment": 263,
+    "T1 Historical/technical forecasting": 617,
+    "T9 Other relevant AI stock forecasting": 382,
+    "T2 Fundamental-data forecasting": 57,
+    "T8 Temporal validation/leakage/robustness": 99,
+    "T4 Multimodal/data fusion": 115,
+    "T5 Transformer/attention": 145
+  },
+  "tag_counts_include_plus_maybe": {
+    "Historical_Data": 859,
+    "Technical_Indicators": 239,
+    "Fundamental_Data": 91,
+    "Financial_News": 120,
+    "Social_Media": 140,
+    "Sentiment": 392,
+    "Multimodal": 127,
+    "Fusion": 160,
+    "Transformer_Attention": 351,
+    "LSTM_GRU": 923,
+    "Optimization": 230,
+    "Metaheuristic": 115,
+    "XAI": 226,
+    "Temporal_Validation": 238,
+    "Indian_Market": 146,
+    "Multi_Stock": 58
+  },
+  "source_membership_counts": {
+    "Scopus": 2063,
+    "ScienceDirect": 905,
+    "Elicit": 97
+  },
+  "note": "Provisional automated title/abstract screening. Final eligibility requires manual resolution of all Maybe records and QC audit of sampled Include/Exclude records."
+}

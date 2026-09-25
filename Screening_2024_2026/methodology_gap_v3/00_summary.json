@@ -1,0 +1,59 @@
+{
+  "purpose": "Methodology/gap evidence prioritization for a research article.",
+  "input_article_development_pool": 260,
+  "methodology_extraction_target": 60,
+  "methodology_extraction_shortlist": 60,
+  "group_counts_within_article_development_pool": {
+    "02_closest_competitors.csv": 24,
+    "03_fundamental_integration.csv": 57,
+    "04_news_sentiment_nlp.csv": 164,
+    "05_multimodal_fusion.csv": 95,
+    "06_optimization_metaheuristics.csv": 59,
+    "07_xai.csv": 81,
+    "08_temporal_validation.csv": 52,
+    "09_indian_market.csv": 28,
+    "10_multi_stock.csv": 18
+  },
+  "gap_combination_counts": {
+    "Technical + Fundamental": 19,
+    "Technical + Textual/Sentiment": 52,
+    "Fundamental + Textual/Sentiment": 29,
+    "Technical + Fundamental + Textual/Sentiment": 6,
+    "Historical + Technical + Fundamental + Textual/Sentiment": 3,
+    "Multimodal + Fusion": 43,
+    "Fusion + Optimization/Metaheuristic": 8,
+    "Fusion + XAI": 17,
+    "Fusion + Temporal Validation": 7,
+    "Fundamental + XAI": 13,
+    "Fundamental + Temporal Validation": 11,
+    "Textual/Sentiment + FinBERT/BERT/RoBERTa": 51,
+    "Textual/Sentiment + LLM/FinGPT": 26,
+    "Indian Market + Multimodal/Fusion": 9,
+    "Multi-stock + Temporal Validation": 9
+  },
+  "shortlist_primary_role_counts": {
+    "Closest_Competitor": 23,
+    "Fundamental_Integration": 5,
+    "Fusion_Architecture": 18,
+    "Advanced_NLP": 4,
+    "Temporal_Validation": 5,
+    "Sentiment_News": 3,
+    "Optimization": 1,
+    "XAI": 1
+  },
+  "shortlist_selection_reason_counts": {
+    "Closest competing framework": 15,
+    "Fundamental-data evidence": 10,
+    "Multimodal/fusion evidence": 10,
+    "Advanced financial NLP/LLM": 8,
+    "Optimization/metaheuristic evidence": 8,
+    "Explainability evidence": 8,
+    "Temporal-validation evidence": 1
+  },
+  "notes": [
+    "The shortlist is a reading/extraction priority set, not a systematic-review included-study set.",
+    "Counts are based only on explicit evidence in title/abstract/keywords.",
+    "A missing tag means not evidenced in metadata, not necessarily absent from the full text.",
+    "Use full text/Elicit to verify the actual research gap before claiming novelty."
+  ]
+}

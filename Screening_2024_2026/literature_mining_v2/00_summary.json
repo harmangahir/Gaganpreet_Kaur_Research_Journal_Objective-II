@@ -1,0 +1,63 @@
+{
+  "purpose": "Research-article literature relevance mining, not systematic-review screening.",
+  "corpus_size": 2808,
+  "tier_counts": {
+    "A_Direct_Methodological_Priority": 634,
+    "B2_Potentially_Relevant": 473,
+    "D_Low_Priority": 312,
+    "B_Direct_Stock_Forecasting": 855,
+    "C_Context_Background": 534
+  },
+  "direct_evidence_count": 1489,
+  "elicit_high_priority_count": 122,
+  "article_development_shortlist_count": 260,
+  "elicit_priority_distribution_all_records": {
+    "Medium": 138,
+    "Low": 2548,
+    "High": 122
+  },
+  "direct_evidence_theme_counts": {
+    "Historical_Data": 704,
+    "Technical_Indicators": 315,
+    "Fundamental_Data": 89,
+    "Financial_News": 112,
+    "Social_Media": 109,
+    "Sentiment": 305,
+    "FinBERT_BERT_RoBERTa": 93,
+    "LLM_FinGPT": 59,
+    "Multimodal": 97,
+    "Fusion": 133,
+    "Transformer_Attention": 306,
+    "LSTM_GRU": 784,
+    "Optimization": 199,
+    "Metaheuristic": 92,
+    "XAI": 176,
+    "Temporal_Validation": 131,
+    "Indian_Market": 121,
+    "Multi_Stock": 59
+  },
+  "year_counts": {
+    "2026": 794,
+    "2025": 1063,
+    "2024": 951
+  },
+  "source_membership_counts": {
+    "Scopus": 2063,
+    "ScienceDirect": 905,
+    "Elicit": 97
+  },
+  "interpretation": {
+    "A_Direct_Methodological_Priority": "Direct stock forecasting + AI/ML/DL + empirical evidence, with two or more strategic themes relevant to the proposed model.",
+    "B_Direct_Stock_Forecasting": "Direct empirical AI stock forecasting useful for related work, baselines or state-of-the-art comparison.",
+    "B2_Potentially_Relevant": "Close to scope but one core element is not explicit in metadata; check only if the topic is strategically useful.",
+    "C_Context_Background": "Reviews, book chapters, volatility/risk/trading/sentiment context, or general finance evidence.",
+    "D_Low_Priority": "No immediate methodological use for the proposed research article."
+  },
+  "warning": "Relevance_Score is a reading-priority score, not a study-quality score. Absence of a tag means 'not evidenced in title/abstract/keywords', not that the feature is absent from the full paper.",
+  "development_set_diagnostic": {
+    "development_records_found": 58,
+    "development_alignment_count": 47,
+    "development_alignment_fraction": 0.8103448275862069,
+    "note": "This diagnostic is for rule development only. It is not a screening-validity statistic and should not be reported as independent validation in the research article."
+  }
+}

@@ -1,0 +1,24 @@
+﻿Database,Query_ID,Title,Year,DOI,Source_File
+ScienceDirect,SD01,Robust dual-path spatio-temporal graph neural networks for stock price prediction,2027,10.1016/j.patcog.2026.114780,ScienceDirect_Query-1_1-100.bib
+ScienceDirect,SD01,Regime-aware deep learning for financial forecasting: an adaptive short-term bias compensation framework for the Warsaw Stock Exchange,2027,10.1016/j.eswa.2026.133584,ScienceDirect_Query-1_101-200.bib
+ScienceDirect,SD01,A hybrid DSA-RE-NET framework for multi-asset stock price forecasting using wavelet Packet Transform,2027,10.1016/j.eswa.2026.133492,ScienceDirect_Query-1_201-300.bib
+ScienceDirect,SD01,Robust firm-level revenue forecasting using stacked hybrid ensemble frameworks: Evidence from the semiconductor industry,2027,10.1016/j.eswa.2026.134179,ScienceDirect_Query-1_201-300.bib
+ScienceDirect,SD01,TRiP-Net: Risk-driven adaptive patching for financial time series forecasting,2027,10.1016/j.neunet.2026.109449,ScienceDirect_Query-1_301-400.bib
+ScienceDirect,SD01,Attention-based convolutional architecture for aspect-based sentiment analysis: training with text-based feature set,2027,10.1016/j.csl.2026.102040,ScienceDirect_Query-1_301-400.bib
+ScienceDirect,SD01,Deep contrastive multi-view spatio-temporal clustering for stock volatility prediction,2027,10.1016/j.patcog.2026.114850,ScienceDirect_Query-1_301-400.bib
+ScienceDirect,SD01,Mechanistic interpretability of Mamba’s selective gate in financial markets: A leakage-controlled study,2027,10.1016/j.patcog.2026.114809,ScienceDirect_Query-1_401-500.bib
+ScienceDirect,SD01,A co-evolutionary genetic programming framework for interpretable market-adaptive factor generation in stock selection,2027,10.1016/j.ipm.2026.105080,ScienceDirect_Query-1_801-900.bib
+ScienceDirect,SD01,Collaborative fuzzy rule-based modeling with a multi-source data environment,2027,10.1016/j.fss.2026.110097,ScienceDirect_Query-1_801-900.bib
+ScienceDirect,SD01,Large language models for time-series analysis: A survey with experimental evaluation for classification,2027,10.1016/j.eswa.2026.133932,ScienceDirect_Query-1_801-900.bib
+ScienceDirect,SD01,Empowering time series analysis with foundation models: A comprehensive survey,2027,10.1016/j.inffus.2026.104601,ScienceDirect_Query-1_801-900.bib
+ScienceDirect,SD01,RARSGAN: An End-to-End Intelligent Generative Framework for Regime-Faithful and Risk-Aware Electricity-Market Scenario Generation,2027,10.1016/j.eswa.2026.134243,ScienceDirect_Query-1_901-918.bib
+ScienceDirect,SD02,A hybrid DSA-RE-NET framework for multi-asset stock price forecasting using wavelet Packet Transform,2027,10.1016/j.eswa.2026.133492,ScienceDirect_Query-2_101-200.bib
+ScienceDirect,SD03,A hybrid DSA-RE-NET framework for multi-asset stock price forecasting using wavelet Packet Transform,2027,10.1016/j.eswa.2026.133492,ScienceDirect_Query-3_1-100.bib
+ScienceDirect,SD04,Attention-based convolutional architecture for aspect-based sentiment analysis: training with text-based feature set,2027,10.1016/j.csl.2026.102040,ScienceDirect_Query-4_101-199.bib
+ScienceDirect,SD05,Regime-aware deep learning for financial forecasting: an adaptive short-term bias compensation framework for the Warsaw Stock Exchange,2027,10.1016/j.eswa.2026.133584,ScienceDirect_Query-5_1-100.bib
+ScienceDirect,SD05,A hybrid DSA-RE-NET framework for multi-asset stock price forecasting using wavelet Packet Transform,2027,10.1016/j.eswa.2026.133492,ScienceDirect_Query-5_101-200.bib
+ScienceDirect,SD05,TRiP-Net: Risk-driven adaptive patching for financial time series forecasting,2027,10.1016/j.neunet.2026.109449,ScienceDirect_Query-5_201-300.bib
+ScienceDirect,SD05,Mechanistic interpretability of Mamba’s selective gate in financial markets: A leakage-controlled study,2027,10.1016/j.patcog.2026.114809,ScienceDirect_Query-5_201-300.bib
+ScienceDirect,SD05,Robust firm-level revenue forecasting using stacked hybrid ensemble frameworks: Evidence from the semiconductor industry,2027,10.1016/j.eswa.2026.134179,ScienceDirect_Query-5_201-300.bib
+ScienceDirect,SD05,Attention-based convolutional architecture for aspect-based sentiment analysis: training with text-based feature set,2027,10.1016/j.csl.2026.102040,ScienceDirect_Query-5_201-300.bib
+ScienceDirect,SD05,Deep contrastive multi-view spatio-temporal clustering for stock volatility prediction,2027,10.1016/j.patcog.2026.114850,ScienceDirect_Query-5_301-400.bib

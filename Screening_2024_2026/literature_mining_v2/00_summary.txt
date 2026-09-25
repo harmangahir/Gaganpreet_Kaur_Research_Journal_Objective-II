@@ -1,0 +1,20 @@
+RESEARCH-ARTICLE LITERATURE MINING V2
+============================================================
+Corpus: 2808
+
+Working relevance tiers:
+  A_Direct_Methodological_Priority: 634
+  B2_Potentially_Relevant: 473
+  B_Direct_Stock_Forecasting: 855
+  C_Context_Background: 534
+  D_Low_Priority: 312
+
+Direct stock-forecasting evidence: 1489
+Elicit High priority: 122
+Article-development shortlist (High+Medium): 260
+
+Development-set diagnostic:
+  development_records_found: 58
+  development_alignment_count: 47
+  development_alignment_fraction: 0.8103448275862069
+  note: This diagnostic is for rule development only. It is not a screening-validity statistic and should not be reported as independent validation in the research article.

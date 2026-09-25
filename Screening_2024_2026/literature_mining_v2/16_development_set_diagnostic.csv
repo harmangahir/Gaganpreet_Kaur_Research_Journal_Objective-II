@@ -1,0 +1,59 @@
+﻿Master_ID,Reference_Decision,Reference_Code,V2_Working_Tier,V2_Relevance_Score,V2_Elicit_Priority,Aligned_For_Development,Title,Eligible_Target,Gap_Dimensions_Evidenced
+M-0129,Include,,A_Direct_Methodological_Priority,22,Medium,Yes,Leveraging BiLSTM-GAT for enhanced stock market prediction: a dual-graph approach to portfolio optimization,Price,Technical_Indicators; Transformer_Attention; Optimization; Multi_Stock
+M-0132,Include,,A_Direct_Methodological_Priority,21,Low,Yes,Hybrid stock price forecasting model using LSTM of attention mechanism combining noise removal and neighborhood rough set,Price,Technical_Indicators; Fusion; Transformer_Attention
+M-0155,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,Stock Price Prediction with Heavy-Tailed Distribution Time-Series Generation Based on WGAN-BiLSTM,Price,
+M-0340,Include,,B_Direct_Stock_Forecasting,17,Low,Yes,A comparative study of deep learning approaches for stock price prediction,Price,Transformer_Attention
+M-0365,Maybe,,B2_Potentially_Relevant,10,Low,Yes,PP-FSPML: Preemptive and Proactive Financial Signal Processing Framework Using Machine Learning,Unclear,
+M-0407,Exclude,E10,C_Context_Background,18,Low,Yes,Chapter 16 - Large language model-driven trading: Enhancing financial algorithms with sentiment and risk analysis,Price; Direction/Movement,Sentiment; LLM_FinGPT
+M-0418,Include,,B2_Potentially_Relevant,12,Low,No,Application of machine learning algorithms in the domain of financial engineering,Unclear,
+M-0500,Exclude,E12,B_Direct_Stock_Forecasting,16,Low,No,Future fund holding prediction based on dynamic time-differential fund-asset networks,Price; Direction/Movement,Transformer_Attention
+M-0702,Include,,A_Direct_Methodological_Priority,21,Low,Yes,Learning unified market interdependencies via networked attention for stock price forecasting,Price,Multimodal; Transformer_Attention; XAI
+M-0772,Include,,B2_Potentially_Relevant,13,Low,No,An Advisor Neural Network framework using LSTM-based Informative Stock Analysis,Unclear,Technical_Indicators; Sentiment
+M-0790,Include,,A_Direct_Methodological_Priority,20,Low,Yes,Economic implications of enhanced stock market analysis using improved forecasting methods,Price; Trend,Technical_Indicators; Indian_Market; Multi_Stock
+M-0837,Exclude,E12,B2_Potentially_Relevant,11,Low,Yes,Learning to understand financial risk contagion from a frequency-domain graph learning framework,Unclear,
+M-0863,Maybe,,B_Direct_Stock_Forecasting,16,Low,Yes,Return prediction: A tree-based conditional sort approach with firm characteristics,Return,Fundamental_Data
+M-0921,Include,,B2_Potentially_Relevant,15,Low,No,"Exploring predictive prowess of ensemble machine learning models in banking stocks: A technical, fundamental, and macroeconomic analysis",Unclear,Technical_Indicators; XAI
+M-0948,Exclude,E04,B_Direct_Stock_Forecasting,15,Low,No,Relational Fusion-based Stock Selection with Neural Recursive Ordinary Differential Equation Networks,Direction/Movement,Fusion
+M-1031,Exclude,E12,B2_Potentially_Relevant,8,Low,Yes,Systemic risk prediction using machine learning: Does network connectedness help prediction?,Unclear,XAI
+M-1068,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,"The more, the better? Predicting stock returns with local and global data",Return,Multi_Stock
+M-1154,Exclude,E12,B2_Potentially_Relevant,11,Low,Yes,Is the U.S. energy independence and Security Act of 2022 associated with stock market volatility?,Unclear,Sentiment; FinBERT_BERT_RoBERTa
+M-1381,Include,,B2_Potentially_Relevant,12,Low,No,Synergy in Forecasting: A Comparative Study of Hybrid Transformer based Ensembles for Stock Market Prediction,Unclear,Transformer_Attention
+M-1425,Maybe,,B2_Potentially_Relevant,12,Low,Yes,EP-RNN: Error-projected recurrent neural network for time series forecasting,Unclear,
+M-1499,Exclude,E13,B2_Potentially_Relevant,14,Low,Yes,Tree-based learning for high-fidelity prediction of chaos,Unclear,Optimization
+M-1507,Include,,B2_Potentially_Relevant,15,Low,No,Pythagorean fuzzy time series approach based on hybrid high-order artificial neural network for nonlinear time series forecasting,Unclear,Metaheuristic; Temporal_Validation
+M-1520,Include,,B_Direct_Stock_Forecasting,15,Low,Yes,Stock price prediction for a trading strategy: embedding trading strategy into deep learning framework,Price; Direction/Movement,
+M-1528,Include,,B2_Potentially_Relevant,12,Low,No,Do government initiatives matter for green financial market volatility in BRICS economies? A systematic analysis using fuzzy-GARCH-LSTM modeling,Unclear,
+M-1557,Maybe,,B2_Potentially_Relevant,7,Low,Yes,"“Darling, time horizon matters”: applying the CNN-LSTM method for predicting US equity ETFs",Unclear,
+M-1783,Exclude,E03,B_Direct_Stock_Forecasting,16,Low,No,"A Comparative Study of Statistical, Machine Learning, and Deep Learning Models for Multivariate Gold Price Forecasting",Price,XAI
+M-1824,Exclude,E12,B2_Potentially_Relevant,7,Low,Yes,Human mobility and commercial real estate: Evidence from REIT operating performance,Unclear,
+M-1859,Include,,B_Direct_Stock_Forecasting,17,Low,Yes,A Dual-View Model for Stock Price Prediction of Internet-of-Thing Enterprises,Price; Trend,Transformer_Attention
+M-1955,Include,,B_Direct_Stock_Forecasting,13,Low,Yes,A structural VAR and VECM modeling method for open-high-low-close data contained in candlestick chart,Price,
+M-2053,Include,,A_Direct_Methodological_Priority,19,Medium,Yes,Presenting a Hybrid Method to Overcome the Challenges of Determining the Uncertainty of Future Stock Price Identification,Price,Technical_Indicators; Metaheuristic
+M-2090,Include,,B_Direct_Stock_Forecasting,15,Low,Yes,Evaluation on stock market forecasting framework for AI and embedded real-time system,Price,
+M-2120,Include,,B_Direct_Stock_Forecasting,15,Low,Yes,Time Series Data Generation by Linear Response Model An Application of Linear Response Theory to Finance,Price,
+M-2311,Exclude,E12,A_Direct_Methodological_Priority,18,High,No,A Hybrid Model of Integrating Sentiment Analysis and Key Market Indicators for IPO Listing Trend Prediction,Trend,Fundamental_Data; Sentiment
+M-2318,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,Modeling Saudi stock index returns and volatility: a dual approach using GARCH and neural networks,Return,
+M-2331,Include,,A_Direct_Methodological_Priority,18,Low,Yes,Integrating Merkle Trees with Transformer Networks for Secure Financial Computation,Price,FinBERT_BERT_RoBERTa; Transformer_Attention
+M-2367,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,"Digital Leadership, Information Entropy, and Stock Price Volatility: Evidence from CEO Social Media Behavior",Price; Direction/Movement,FinBERT_BERT_RoBERTa
+M-2385,Include,,B_Direct_Stock_Forecasting,15,Low,Yes,Dynamic Energy Cascading Model for Stock Price Prediction in Enterprise Association Networks,Price; Direction/Movement,
+M-2519,Include,,A_Direct_Methodological_Priority,22,Medium,Yes,Intraday and Post-Market Investor Sentiment for Stock Price Prediction: A Deep Learning Framework with Explainability and Quantitative Trading Strategy,Price,Technical_Indicators; Sentiment; XAI
+M-2532,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,Wavelet Based Financial Forecast Ensemble Featuring Hybrid Quantum-Classical LSTM Model,Price; Direction/Movement,
+M-2752,Include,,A_Direct_Methodological_Priority,21,Low,Yes,GTCOA: a novel golden t-distribution chaotic optimization algorithm and its application in Transformer-LSTM for stock forecasting,Price,Transformer_Attention; Optimization; Metaheuristic
+M-2764,Include,,B_Direct_Stock_Forecasting,17,Low,Yes,ANALYSIS OF THE IMPACT OF INTELLIGENT INVESTMENT DECISIONS OF SECURITIES INSTITUTIONS ON STOCK PRICE PREDICTION,Price,Transformer_Attention
+M-0021,Exclude,E12,B2_Potentially_Relevant,9,Low,Yes,Forecasting Volatility of Australian Stock Market Applying WTC-DCA-Informer Framework,Unclear,Transformer_Attention
+M-0158,Exclude,E12,B_Direct_Stock_Forecasting,15,Low,No,The Impact of Foreign Stock Market Indices on Predictions Volatility of the WIG20 Index Rates of Return Using Neural Networks,Price; Return,
+M-0430,Exclude,E13,D_Low_Priority,6,Low,Yes,Client: Cross-variable linear integrated enhanced transformer for multivariate long-term time series forecasting,Unclear,Transformer_Attention
+M-0449,Exclude,E06,D_Low_Priority,-4,Low,Yes,Reinforcement learning-enhanced multi-strategy cuckoo search algorithm to solve combined economic emission dispatch problems,Unclear,Metaheuristic
+M-0586,Exclude,E13,D_Low_Priority,6,Low,Yes,A data-filtered sentiment analysis model for economic forecasting,Unclear,Sentiment; LLM_FinGPT
+M-1097,Exclude,E12,C_Context_Background,15,Low,Yes,"Short-term momentum and reversals, turnover, and a stock's price-to-52-week-high ratio",Return,Fundamental_Data; Sentiment
+M-1125,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,How can we predict transportation stock prices using artificial intelligence? Findings from experiments with Long Short-Term Memory based algorithms,Price,
+M-1415,Exclude,E12,C_Context_Background,7,Low,Yes,Volatility prediction model based on EPU-GPR-VIX multidimensional portfolio,Unclear,Sentiment; Temporal_Validation
+M-1417,Exclude,E07,C_Context_Background,3,Low,Yes,Finance and emotions: A study on investor sentiment and its implication on market movements,Unclear,Sentiment
+M-1444,Exclude,E06,D_Low_Priority,5,Low,Yes,AI-Driven urban planning optimization: A graph neural network and genetic algorithm framework for tackling peak-hour challenges,Unclear,Metaheuristic
+M-1472,Exclude,E06,D_Low_Priority,-1,Low,Yes,Automatic ICD-10-CM coding via Lambda-Scaled attention based deep learning model,Unclear,Transformer_Attention
+M-1844,Exclude,E08,C_Context_Background,14,Low,Yes,Can financial uncertainty forecast aggregate stock market returns?,Return,Temporal_Validation
+M-1959,Exclude,E08,C_Context_Background,12,Low,Yes,"Understanding price momentum, market fluctuations, and crashes: insights from the extended Samuelson model",Price; Trend,Sentiment; Temporal_Validation
+M-2113,Exclude,E07,C_Context_Background,7,Low,Yes,Monetary Policy and Financial Markets: Evidence from Twitter Traffic,Unclear,
+M-2425,Include,,B_Direct_Stock_Forecasting,16,Low,Yes,Optimization of Traditional Stock Market Strategies Using the LSTM Hybrid Approach,Price,Technical_Indicators
+M-2454,Exclude,E12,B2_Potentially_Relevant,10,Low,Yes,Deep Learning and Transformer Architectures for Volatility Forecasting: Evidence from U.S. Equity Indices,Unclear,Transformer_Attention
+M-2535,Exclude,E12,C_Context_Background,8,Low,Yes,Calendar Anomalies and the Adaptive Market Hypothesis: New Evidence from a Historical Financial Dataset,Unclear,Temporal_Validation

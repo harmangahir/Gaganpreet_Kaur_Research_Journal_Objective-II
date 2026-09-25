@@ -1,0 +1,42 @@
+{
+  "status": "QC_COMPLETE",
+  "manual_review_queue_total": 505,
+  "manual_review_completed": 505,
+  "manual_review_pending": 0,
+  "qc_sample_completed": 164,
+  "qc_raw_agreement": 0.6463414634146342,
+  "qc_cohens_kappa": 0.29728132387706857,
+  "qc_disagreements": 58,
+  "qc_confusion_matrix_ai_rows_human_columns": {
+    "Include": {
+      "Include": 43,
+      "Maybe": 0,
+      "Exclude": 41,
+      "Background": 0
+    },
+    "Maybe": {
+      "Include": 0,
+      "Maybe": 0,
+      "Exclude": 0,
+      "Background": 0
+    },
+    "Exclude": {
+      "Include": 17,
+      "Maybe": 0,
+      "Exclude": 63,
+      "Background": 0
+    },
+    "Background": {
+      "Include": 0,
+      "Maybe": 0,
+      "Exclude": 0,
+      "Background": 0
+    }
+  },
+  "reconciled_decision_counts": {
+    "Include": 1702,
+    "Exclude": 1106
+  },
+  "records_proceeding_to_full_text": 1702,
+  "warning": "Do not freeze PRISMA/title-abstract counts while status is QC_INCOMPLETE. If disagreements are systematic, revise rules and rerun the complete automated screen."
+}

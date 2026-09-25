@@ -1,0 +1,49 @@
+Elicit extraction instructions for the attached papers
+
+For each paper, extract ONLY information explicitly supported by the paper.
+Use "Not reported" when the paper does not provide the information. Do not infer.
+
+Required fields:
+1. Prediction target
+2. Forecast horizon
+3. Market/country
+4. Number of stocks/assets
+5. Data frequency
+6. Data period
+7. Historical market variables
+8. Technical indicators
+9. Fundamental variables
+10. Macroeconomic variables
+11. News source
+12. Social-media source
+13. Sentiment model
+14. FinBERT/BERT/RoBERTa use
+15. LLM/FinGPT use
+16. Model family
+17. Architecture
+18. Attention mechanism
+19. Multimodal design
+20. Fusion strategy
+21. Optimization method
+22. Metaheuristic method
+23. Train/validation/test protocol
+24. Temporal split method
+25. Walk-forward/rolling evaluation
+26. Normalization boundary
+27. Feature-selection boundary
+28. Explicit leakage-control mechanism
+29. Baselines
+30. Evaluation metrics
+31. Statistical significance tests
+32. Ablation study
+33. Explainability/XAI method
+34. Economic/trading evaluation
+35. Main methodological contribution
+36. Reported limitations
+37. Future work
+
+Important:
+- Preserve the authors' terminology.
+- Do not treat absence from the abstract as absence from the paper.
+- Do not infer train-only preprocessing, temporal alignment, or leakage control.
+- Mark such fields "Not reported" unless explicitly stated.

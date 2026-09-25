@@ -1,0 +1,12 @@
+﻿Exclusion_Code,Reason,Count
+E01,Cryptocurrency/digital-asset forecasting without stock/equity forecasting,18
+E02,Forex/currency forecasting without stock/equity forecasting,15
+E03,Commodity/energy forecasting without stock/equity forecasting,31
+E04,Portfolio optimization/asset allocation without an explicit eligible stock forecasting task,59
+E05,Trading/RL strategy without an explicit eligible stock forecasting task,59
+E06,Non-financial time-series forecasting / no stock-equity context,185
+E07,Sentiment analysis related to stocks but no explicit eligible stock forecasting task,32
+E08,Pure econometric/statistical forecasting without AI/ML/DL,16
+E10,Editorial/commentary/non-primary research item,1
+E12,Stock-market topic but no eligible price/return/direction/trend forecasting task,188
+E13,AI/ML forecasting present but direct stock/equity relevance not established,195

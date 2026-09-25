@@ -1,0 +1,22 @@
+{
+  "input_methodology_shortlist": 60,
+  "elicit_core_target": 35,
+  "elicit_core_selected": 35,
+  "priority_category_counts_in_core": {
+    "Closest_Competitor": 18,
+    "Three_Data_Families": 6,
+    "Four_Data_Families": 3,
+    "Advanced_NLP": 15,
+    "Fundamental_XAI": 5,
+    "Fusion_Temporal": 6,
+    "Fusion_Optimization": 6,
+    "India_Multimodal_Fusion": 4,
+    "MultiStock_Temporal": 3,
+    "Fundamental_Temporal": 4
+  },
+  "notes": [
+    "This is a research-article methodology evidence set, not a systematic-review inclusion set.",
+    "Use the extraction template and Elicit prompt for full-text-supported evidence.",
+    "Do not claim novelty from metadata counts alone."
+  ]
+}

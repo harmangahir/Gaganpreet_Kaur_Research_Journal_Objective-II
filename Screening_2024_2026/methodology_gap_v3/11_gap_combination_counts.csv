@@ -1,0 +1,16 @@
+﻿Combination,Metadata_Evidence_Count
+Technical + Fundamental,19
+Technical + Textual/Sentiment,52
+Fundamental + Textual/Sentiment,29
+Technical + Fundamental + Textual/Sentiment,6
+Historical + Technical + Fundamental + Textual/Sentiment,3
+Multimodal + Fusion,43
+Fusion + Optimization/Metaheuristic,8
+Fusion + XAI,17
+Fusion + Temporal Validation,7
+Fundamental + XAI,13
+Fundamental + Temporal Validation,11
+Textual/Sentiment + FinBERT/BERT/RoBERTa,51
+Textual/Sentiment + LLM/FinGPT,26
+Indian Market + Multimodal/Fusion,9
+Multi-stock + Temporal Validation,9
