@@ -1,0 +1,33 @@
+{
+  "study_design": {
+    "market": "India / NSE",
+    "planned_start": "2016-01-01",
+    "planned_end_inclusive": "2026-06-30",
+    "stock_count_planned": 20,
+    "benchmark": "^NSEI",
+    "source": "Yahoo Finance via yfinance"
+  },
+  "download": {
+    "successful_stock_downloads": 20,
+    "failed_stock_downloads": 0,
+    "benchmark_downloaded": true
+  },
+  "reference_calendar": {
+    "nifty50_sessions": 2583,
+    "first_date": "2016-01-04",
+    "last_date": "2026-06-30"
+  },
+  "preliminary_eligibility": {
+    "threshold_benchmark_coverage_pct": 98.0,
+    "max_end_lag_trading_days": 5,
+    "eligible_stocks": 20,
+    "ineligible_or_failed_stocks": 0,
+    "note": "Preliminary engineering audit only. No stock is removed until the output is reviewed."
+  },
+  "flags": {
+    "total_missing_benchmark_date_records": 0,
+    "total_invalid_ohlcv_records": 0,
+    "total_large_adjusted_return_flags": 1,
+    "total_corporate_action_records": 329
+  }
+}

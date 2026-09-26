@@ -1,0 +1,49 @@
+{
+  "panel": {
+    "stocks": 20,
+    "stock_rows_each_expected_from_stage1": 2593,
+    "nifty50_rows": 2583
+  },
+  "calendar_reconciliation": {
+    "unique_dates_across_20_stocks": 2593,
+    "stock_dates_absent_from_nifty50": 10,
+    "dates_absent_from_nifty50_supported_by_at_least_80pct_of_stocks": 10,
+    "candidate_nifty50_data_gap_dates": [
+      "2016-01-01",
+      "2016-08-12",
+      "2018-01-01",
+      "2019-01-01",
+      "2019-10-27",
+      "2020-11-14",
+      "2026-01-15",
+      "2026-05-01",
+      "2026-05-28",
+      "2026-06-26"
+    ]
+  },
+  "zero_volume": {
+    "total_stock_zero_volume_rows": 99,
+    "unique_zero_volume_dates": 5,
+    "systemic_threshold_stock_count": 16,
+    "systemic_zero_volume_dates": [
+      "2026-01-15",
+      "2026-05-01",
+      "2026-05-28",
+      "2026-06-26",
+      "2025-03-18"
+    ]
+  },
+  "large_returns": {
+    "threshold_abs_log_return": 0.3,
+    "flagged_rows": 1,
+    "flagged_tickers": [
+      "AXISBANK.NS"
+    ]
+  },
+  "corporate_actions": {
+    "total_events": 329,
+    "dividend_events": 317,
+    "split_events": 15
+  },
+  "important_note": "Diagnostic stage only. No dates or stocks have been removed. Cleaning rules will be decided after manual review of this output."
+}

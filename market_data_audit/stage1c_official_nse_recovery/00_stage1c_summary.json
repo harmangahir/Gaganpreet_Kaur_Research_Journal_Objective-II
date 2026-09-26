@@ -1,0 +1,22 @@
+{
+  "nifty50_recovery": {
+    "requested_dates": 6,
+    "recovered_dates": 0,
+    "unrecovered_dates": 6,
+    "dates": [
+      "2016-01-01",
+      "2016-08-12",
+      "2018-01-01",
+      "2019-01-01",
+      "2019-10-27",
+      "2020-11-14"
+    ]
+  },
+  "stock_volume_recovery_2025_03_18": {
+    "requested_stocks": 20,
+    "recovered_stocks": 0,
+    "unrecovered_stocks": 20,
+    "positive_official_volume_rows": 0
+  },
+  "note": "Diagnostic only. No Yahoo row has been overwritten or removed. If official NSE recovery succeeds, Stage 1D will create the reconciled market dataset with a full audit trail."
+}

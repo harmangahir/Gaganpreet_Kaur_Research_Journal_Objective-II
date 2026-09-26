@@ -1,0 +1,56 @@
+{
+  "market": "India / NSE",
+  "market_source": "Yahoo Finance via yfinance",
+  "stocks": [
+    "ASIANPAINT.NS",
+    "AXISBANK.NS",
+    "BAJFINANCE.NS",
+    "BHARTIARTL.NS",
+    "HDFCBANK.NS",
+    "HINDUNILVR.NS",
+    "ICICIBANK.NS",
+    "INFY.NS",
+    "ITC.NS",
+    "KOTAKBANK.NS",
+    "LT.NS",
+    "MARUTI.NS",
+    "NTPC.NS",
+    "POWERGRID.NS",
+    "RELIANCE.NS",
+    "SBIN.NS",
+    "SUNPHARMA.NS",
+    "TCS.NS",
+    "TITAN.NS",
+    "ULTRACEMCO.NS"
+  ],
+  "benchmark": "^NSEI",
+  "planned_window": {
+    "start": "2016-01-01",
+    "end": "2026-06-30"
+  },
+  "effective_final_window": {
+    "start": "2016-01-04",
+    "end": "2026-06-30"
+  },
+  "final_trading_sessions_per_stock": 2582,
+  "final_stock_count": 20,
+  "final_stock_panel_rows": 51640,
+  "nifty50_context_rows": 2582,
+  "excluded_observed_dates": 11,
+  "cleaning_policy": {
+    "calendar": "Intersection of all 20 stock dates and Yahoo ^NSEI dates",
+    "nifty_missing_dates": "Excluded uniformly; no index interpolation or back/forward filling",
+    "systemic_bad_dates": {
+      "2025-03-18": "Systemic Yahoo stock-volume anomaly: 19/20 stocks reported zero volume"
+    },
+    "raw_data_modified": false
+  },
+  "integrity": {
+    "all_20_stocks_passed": true,
+    "final_zero_volume_stock_rows": 0,
+    "final_core_null_count": 0,
+    "final_duplicate_dates": 0,
+    "final_invalid_price_rows": 0,
+    "final_ohlc_inconsistency_rows": 0
+  }
+}

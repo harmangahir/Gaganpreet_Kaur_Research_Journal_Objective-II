@@ -1,0 +1,11 @@
+Date,Stock_Count_With_Row,Stock_Count_Positive_Volume,Stock_Count_Zero_Volume,NIFTY50_Row_Present,All_20_Stocks_Present,Systemic_Zero_Volume
+2016-01-01,20,20,0,False,True,False
+2016-08-12,20,20,0,False,True,False
+2018-01-01,20,20,0,False,True,False
+2019-01-01,20,20,0,False,True,False
+2019-10-27,20,20,0,False,True,False
+2020-11-14,20,20,0,False,True,False
+2026-01-15,20,0,20,False,True,True
+2026-05-01,20,0,20,False,True,True
+2026-05-28,20,0,20,False,True,True
+2026-06-26,20,0,20,False,True,True

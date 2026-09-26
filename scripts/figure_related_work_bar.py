@@ -1,0 +1,143 @@
+from __future__ import annotations
+import argparse
+import re
+from itertools import combinations
+from pathlib import Path
+
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.path import Path as MplPath
+from matplotlib.patches import PathPatch, Rectangle
+import networkx as nx
+
+plt.rcParams["font.family"] = "serif"
+plt.rcParams["font.size"] = 10
+plt.rcParams["axes.titlesize"] = 12
+plt.rcParams["axes.labelsize"] = 10
+
+def clean_text(x):
+    if pd.isna(x):
+        return ""
+    return re.sub(r"\s+", " ", str(x).strip())
+
+def has_substantive_content(x):
+    s = clean_text(x).lower()
+    if not s:
+        return False
+    blocked = [
+        "not reported", "not applicable", "not explicitly reported",
+        "not clearly reported", "none reported", "not stated",
+        "no explicit", "unclear"
+    ]
+    return not any(b in s for b in blocked)
+
+def contains_any(text, keywords):
+    t = clean_text(text).lower()
+    return any(k in t for k in keywords)
+
+def modality_profile(row):
+    tech = has_substantive_content(row.get("Technical Indicators", ""))
+    fund = has_substantive_content(row.get("Fundamental Variables", ""))
+    news = has_substantive_content(row.get("News/Sentiment Data", ""))
+
+    parts = []
+    if tech:
+        parts.append("Technical")
+    if fund:
+        parts.append("Fundamental")
+    if news:
+        parts.append("News/Sentiment")
+    return " + ".join(parts) if parts else "Historical / Other"
+
+def model_family(text):
+    t = clean_text(text).lower()
+    if ("graph" in t or "gnn" in t) and any(k in t for k in ["transformer", "attention", "bert"]):
+        return "Graph + attention"
+    if any(k in t for k in ["transformer", "attention", "bert", "fingpt"]):
+        return "Transformer/attention"
+    if any(k in t for k in ["lstm", "gru", "rnn", "bilstm"]):
+        return "RNN/LSTM/GRU"
+    if any(k in t for k in ["graph", "gnn"]):
+        return "Graph-based"
+    if any(k in t for k in ["random forest", "xgboost", "svm", "logistic regression"]):
+        return "Classical ML"
+    return "Hybrid/other"
+
+def bool_theme_columns(df):
+    out = pd.DataFrame(index=df.index)
+    out["Technical indicators"] = df["Technical Indicators"].apply(has_substantive_content)
+    out["Fundamental variables"] = df["Fundamental Variables"].apply(has_substantive_content)
+    out["News / sentiment"] = df["News/Sentiment Data"].apply(has_substantive_content)
+    out["Transformer / attention"] = df["Model Architecture"].apply(
+        lambda x: contains_any(x, ["transformer", "attention", "bert", "fingpt"])
+    )
+    out["Adaptive / explicit fusion"] = df["Fusion Strategy"].apply(
+        lambda x: contains_any(
+            x, ["fusion", "cross-attention", "co-attention", "gated", "adaptive",
+                "weighted", "concaten", "late fusion", "decision-level", "feature-level"]
+        )
+    )
+    out["Optimization / HPO"] = df["Optimization / Hyperparameter Method"].apply(has_substantive_content)
+    out["XAI / interpretability"] = df["Explainability / XAI"].apply(has_substantive_content)
+    out["Temporal validation"] = df["Temporal Validation / Data Split"].apply(has_substantive_content)
+    out["Walk-forward / rolling"] = df["Walk-Forward / Rolling Evaluation"].apply(
+        lambda x: has_substantive_content(x) and not contains_any(x, ["single temporal split"])
+    )
+    out["Leakage control"] = df["Temporal Alignment / Leakage Control"].apply(has_substantive_content)
+    out["Ablation study"] = df["Ablation / Component Analysis"].apply(has_substantive_content)
+    return out
+
+def rigor_profile(row):
+    score = sum([
+        bool(row["Temporal validation"]),
+        bool(row["Walk-forward / rolling"]),
+        bool(row["Leakage control"]),
+        bool(row["Optimization / HPO"]),
+        bool(row["XAI / interpretability"]),
+        bool(row["Ablation study"]),
+    ])
+    if score >= 4:
+        return "High rigor"
+    if score >= 2:
+        return "Moderate rigor"
+    return "Basic rigor"
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", required=True)
+    ap.add_argument("--output", default="Figure_RW_Theme_Bar.pdf")
+    args = ap.parse_args()
+
+    df = pd.read_csv(args.input)
+    counts = bool_theme_columns(df).sum().sort_values(ascending=True)
+    total = len(df)
+
+    fig, ax = plt.subplots(figsize=(8.8, 5.8))
+    y = range(len(counts))
+    ax.barh(y, counts.values, edgecolor="black", linewidth=0.3)
+    ax.set_yticks(list(y))
+    ax.set_yticklabels(counts.index)
+    ax.set_xlabel("Number of papers")
+    ax.set_ylabel("Methodological theme")
+    ax.set_title(
+        f"Distribution of the artciles extracted related-work set across principal methodological themes",
+        fontweight="bold"
+    )
+    ax.grid(axis="x", linestyle="--", linewidth=0.5, alpha=0.5)
+    xmax = max(counts.values) if len(counts) else 1
+    ax.set_xlim(0, xmax * 1.25)
+    for yi, val in zip(y, counts.values):
+        pct = 100.0 * val / total if total else 0.0
+        ax.text(val + xmax * 0.02, yi, f"{int(val)} ({pct:.1f}%)", va="center", ha="left", fontsize=9)
+    ax.text(0.98, 0.03, f"$n={total}$", transform=ax.transAxes, ha="right", va="bottom", fontsize=9)
+    for spine in ["top", "right"]:
+        ax.spines[spine].set_visible(False)
+    plt.tight_layout()
+    out = Path(args.output)
+    plt.savefig(out, format="pdf", bbox_inches="tight")
+    plt.close(fig)
+    print(f"Saved: {out.resolve()}")
+
+if __name__ == "__main__":
+    main()

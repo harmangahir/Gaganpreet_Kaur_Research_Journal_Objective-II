@@ -1,0 +1,2 @@
+Ticker,Date,Adjusted_Log_Return,Adjusted_Simple_Return_Pct,Prev_Date,Prev_Adj_Close,Current_Adj_Close,Next_Date,Next_Adj_Close,Same_Day_Dividend,Same_Day_Stock_Split,Nearby_5Row_Dividend_Total,Nearby_5Row_Split_Events,Nearby_5Row_Split_Dates
+AXISBANK.NS,2020-03-23,-0.32726564888425164,-27.910778662423464,2020-03-20,426.0411682128906,307.1297607421875,2020-03-24,301.6568298339844,0.0,0.0,0.0,0,

@@ -1,0 +1,7 @@
+Date,HTTP_Status,Request_Error,Recovered,Open,High,Low,Close,Shares_Traded,Turnover,Raw_Record_Keys
+2016-01-01,503,HTTP 503,False,,,,,,,
+2016-08-12,503,HTTP 503,False,,,,,,,
+2018-01-01,503,HTTP 503,False,,,,,,,
+2019-01-01,503,HTTP 503,False,,,,,,,
+2019-10-27,503,HTTP 503,False,,,,,,,
+2020-11-14,503,HTTP 503,False,,,,,,,
